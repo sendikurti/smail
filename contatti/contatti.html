@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATTI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/home/home.css">
+    <link rel="stylesheet" href="/contatti/contatti.css">
+</head>
+
+<body class="page-contatti">
+    
+    <div id="header-placeholder"></div>
+    <div id="mobile-menu-placeholder"></div>
+
+
+
+
+    <section class="contatti-section">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-12 col-md-10 col-lg-8">
+
+                    <div class=" mb-4 contatti-title">
+                        <h3>Contatta <span>SMAIL</span><br>Impresa di Pulizie<br>a Perugia</h3>
+                    </div>
+
+                    <div class="mb-5">
+                        <p>
+                            Hai bisogno di un <b>servizio di pulizie civili e industriali?</b><br>
+                            SMAIL è a tua disposizione per offrirti un preventivo rapido, chiaro e senza impegno. Operiamo su tutto il
+                            territorio di <b>Perugia, Olmo, Magione, Bastia Umbra e Terni,</b> garantendo risposte veloci e interventi
+                            tempestivi. Che si tratti di <b>pulizie domestiche, pulizie uffici e pulizie industriali,</b> il nostro team è pronto a
+                            supportarti con soluzioni su misura.
+                        </p>
+                    </div>
+
+                    <div class="contatti-form-box">
+                        <h3>Richiedi un Preventivo Gratuito</h3>
+                        <p class="contatti-form-subtitle">Compila il form in pochi secondi per ricevere una proposta personalizzata per servizi di pulizia a
+                            Perugia. Ti ricontatteremo rapidamente con tutte le informazioni necessarie.</p>
+
+                        <form class="contatti-form">
+                            <div class="row g-3">
+
+                                <div class="col-12">
+                                    <label>Nome e Cognome<span class="required-mark">*</span></label>
+                                    <input type="text" placeholder="Mario Rossi">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label>Telefono<span class="required-mark">*</span></label>
+                                    <input type="tel" placeholder="+39 000 000 0000">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label>Email<span class="required-mark">*</span></label>
+                                    <input type="email" placeholder="mariorossi@esempio.com">
+                                </div>
+
+                                <div class="col-12">
+                                    <label>Località intervento<span class="required-mark">*</span></label>
+                                    <input type="text" placeholder="es. Perugia">
+                                </div>
+
+                                <div class="col-12">
+                                    <label>Tipologia di servizio<span class="required-mark">*</span></label>
+                                    <div class="custom-select" id="tipoServizioSelect">
+                                        <div class="custom-select-trigger">
+                                            <span>Seleziona un servizio</span>
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                        <div class="custom-select-options">
+                                            <div class="custom-select-option" data-value="domestiche">Pulizie domestiche</div>
+                                            <div class="custom-select-option" data-value="uffici">Pulizie uffici</div>
+                                            <div class="custom-select-option" data-value="industriali">Pulizie industriali</div>
+                                            <div class="custom-select-option" data-value="sanificazione">Sanificazione ambienti</div>
+                                            <div class="custom-select-option" data-value="altro">Altro...</div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="tipologia_servizio" id="tipoServizioValue">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label>Metratura indicativa (mq)</label>
+                                    <input type="text" placeholder="+00 000 000 0000">
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label>Frequenza del servizio</label>
+                                    <div class="custom-select" id="frequenzaSelect">
+                                        <div class="custom-select-trigger">
+                                            <span>Seleziona...</span>
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                        <div class="custom-select-options">
+                                            <div class="custom-select-option" data-value="una-tantum">Una tantum</div>
+                                            <div class="custom-select-option" data-value="settimanale">Settimanale</div>
+                                            <div class="custom-select-option" data-value="mensile">Mensile</div>
+                                            <div class="custom-select-option" data-value="da-definire">Da definire</div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="frequenza_servizio" id="frequenzaValue">
+                                </div>
+
+                                <div class="col-12">
+                                    <label>Messaggio<span class="required-mark">*</span></label>
+                                    <textarea rows="4" placeholder="Descrivi in breve le tue esigenze..."></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="contatti-privacy">
+                                        <input type="checkbox" id="privacyCheck">
+                                        <label for="privacyCheck">Ho letto l'informativa privacy e acconsento alla memorizzazione dei dati del sotto contatto secondo quanto
+                                            dal regolamento europeo per la protezione dei dati personali - GDPR/2016</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit" class="header-call-to-action-1 w-100">Invia richiesta di preventivo</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="contatti-sidebar">
+
+                        <h5>Preferisci parlare direttamente con noi?</h5>
+
+                        <div class="contatti-sidebar-item">
+                            <img src="/images/phone.svg" alt="">
+                            <div>
+                                <p class="contatti-sidebar-label">Chiama ora</p>
+                                <p class="contatti-sidebar-subtitle">Rispesta immediata</p>
+                                <p class="contatti-sidebar-value">+00 000 000 0000</p>
+                            </div>
+                        </div>
+
+                        <div class="contatti-sidebar-item">
+                            <img src="/images/whatsapp.svg" alt="">
+                            <div>
+                                <p class="contatti-sidebar-label">WhatsApp Business</p>
+                                <p class="wp-contatti-sidebar-value">Invia foto e dettagli per un preventivo più preciso</p>
+                            </div>
+                        </div>
+
+                        <div class="contatti-sidebar-item">
+                            <img src="/images/mail_27dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <div>
+                                <p class="contatti-sidebar-label">Email</p>
+                                <p class="email-contatti-sidebar-value">info@smail.it</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contatti-sidebar-social">
+                        <h5>Seguici sui social</h5>
+                        <div class="contatti-sidebar-social-links">
+                            <a href="#"><img src="/images/whatsapp.svg" alt=""> Instagram</a>
+                            <a href="#"><img src="/images/facebook.svg" alt=""> Facebook</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div id="footer-placeholder"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/components/include.js"></script>
+    <script src="/components/main.js"></script>
+</body>
+</html>

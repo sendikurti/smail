@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.076" height="19.123" viewBox="0 0 19.076 19.123">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_69" data-name="Rettangolo 69" width="19.076" height="19.123" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_82" data-name="Raggruppa 82" transform="translate(0 0)">
+    <g id="Raggruppa_81" data-name="Raggruppa 81" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_91" data-name="Tracciato 91" d="M0,19.123l1.371-5.116a9.467,9.467,0,1,1,3.77,3.738Zm5.4-3.294.324.193a7.684,7.684,0,1,0-2.629-2.606l.2.326L2.525,16.6Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Tracciato_92" data-name="Tracciato 92" d="M15.343,12.986a1.586,1.586,0,0,0-1.353-.3c-.351.144-.576.694-.8.975a.337.337,0,0,1-.436.094,6.124,6.124,0,0,1-3.057-2.619.375.375,0,0,1,.047-.512,2.072,2.072,0,0,0,.556-.9,1.977,1.977,0,0,0-.248-1.067,2.534,2.534,0,0,0-.788-1.188,1.081,1.081,0,0,0-1.173.174,2.384,2.384,0,0,0-.826,1.886,2.687,2.687,0,0,0,.075.6,4.965,4.965,0,0,0,.574,1.323,10.527,10.527,0,0,0,.6.911,9.244,9.244,0,0,0,2.6,2.413,7.872,7.872,0,0,0,1.621.771,3.6,3.6,0,0,0,1.887.3,2.284,2.284,0,0,0,1.711-1.272,1.111,1.111,0,0,0,.079-.65c-.1-.447-.7-.713-1.065-.929" transform="translate(-2.199 -2.227)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,100 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+h3{
+    color: black;
+}
+h3 span{
+    color: #4db8d1;
+}
+
+
+.esp-section{
+    background-color: #0f2942;
+    border-radius: 30px;
+    padding: 5rem 0;
+    margin: 4rem 0;
+}
+.esp-container h3{
+    color: white;
+    font-weight: 700;
+    line-height: 3rem;
+    font-size: 35px;
+}
+.esp-container h3 span{
+    color: #4db8d1;
+}
+.esp-container p{
+    color: white;
+    margin: 2rem 0;
+}
+.esp-btn .header-call-to-action-1 {
+    background-color: white;
+    color: #0f2942;
+}
+.esp-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+
+
+
+
+.il-team-title h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.il-team-title span{
+    color: #4db8d1;
+}
+.il-team-separatore{
+    width: 9rem;
+    height: auto;
+    margin: 0.5rem 0 2rem;
+}
+.il-team-box{
+    margin: 3rem 0;
+    padding: 2rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0 0 8px #7979796b;
+}
+.il-team-box h4{
+    font-weight: 700;
+    color: #4db8d1;
+    margin: 2rem 0 0.8rem 0;
+}
+
+
+
+
+
+.num-section{
+    background-color: #f4f4f2;
+    border-radius: 30px;
+    padding: 5rem 0;
+    margin: 4rem 0rem;
+}
+.num-title{
+    font-size: 35px;
+    font-weight: 700;
+} 
+.num-title span{
+    color: #4db8d1;
+}
+.num-box h4{
+    font-weight: 700;
+    margin: 1rem 0 4rem;
+}

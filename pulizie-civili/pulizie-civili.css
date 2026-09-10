@@ -1,0 +1,70 @@
+h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+h3 span{
+    color: #4db8d1;
+}
+.hero-txt h4{
+    color: #4db8d1;
+    font-weight: 700;
+}
+
+
+
+.pulizie-box-section{
+    margin: 5rem 0;
+}
+.pulizie-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #7979796b;
+    margin: 1rem 0;
+}
+.pulizie-icon-wrap {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.pulizie-icon-wrap img {
+    width: 60px;
+    height: 60px;
+}
+.pulizie-text-wrap {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+}
+.pulizie-text-wrap p {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+.domanda-section{
+    margin: 4rem 0;
+}
+.domanda-container{
+    background-color: #f4f4f2;
+    border-radius: 30px;
+    padding: 2rem 0;
+}
+.domanda-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 2rem;
+    line-height: 3.5rem;
+}
+.domanda-title span{
+    color: #4db8d1;
+}
