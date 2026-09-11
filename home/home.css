@@ -2,6 +2,14 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    color: #082536;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1640px;
+    }
 }
 
 .page-chi-siamo .nav-chi-siamo,
@@ -22,38 +30,70 @@
 
 
 .header{
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 1rem 0 1rem 0;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    padding: 10px 0 28px 0;
+    padding-inline: 35px;
+}
+.header-row{
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.md-box{
+    align-self: center;
+    padding-top: 20px;
+}
+.md-box a:hover{
+    color: #4db8d1;
+    text-decoration: none;
 }
 .md-btn{
     background-color: transparent;
     border: none;
-    font: 16px;
+    font-size: 15.96px;
     font-weight: 700;
     text-decoration: none;
     color: inherit;
     display: inline-block;
+    padding: 13px 55px;
+    color: #082536;
+}
+.md-btn a{
+    text-decoration: none;
+    color: #082536;
+}
+.md-btn a:hover{
+    color: #4db8d1;
+    text-decoration: none;
+}
+.call-to-action-btns{
+    padding-top: 15px;
 }
 .header-call-to-action-1{
     background-color: #082536;
     color: white;
     border: none;
-    border-radius: 8px;
-    font: 20px;
-    font-weight: 700;
-    padding: 0.5rem 1rem;
     text-align: center;
+    font-size: 17.86px;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 10px;
+    padding: 13px 18px;
+    font-weight: 700;
+    line-height: 1.2rem;
 }
 .header-call-to-action-2{
     background-color: #4db8d1;
-    color: white;
     border: none;
-    border-radius: 8px;
-    font: 20px;
     font-weight: 700;
-    padding: 0.5rem 1rem;
     text-align: center;
+    font-size: 17.86px;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 10px;
+    padding: 13px 18px;
+    line-height: 1.2rem;
 }
 
 
@@ -99,9 +139,6 @@
     text-decoration: none;
     font-weight: 600;
     border-radius: 8px;
-}
-.dropdown-menu-custom a:hover {
-    background-color: #f4f4f2;
 }
 
 
@@ -228,49 +265,70 @@
 
 .hero-section{
     margin-top: 4rem;
+    padding-inline: 35px;
 }
 h1{
     color: #4db8d1;
     font-weight: 700;
+    font-size: 3.15rem;
+    line-height: 3.67rem;
 }
 h2{
+    font-size: 3.15rem;
     font-weight: 500;
+    line-height: 3.67rem;
+}
+.hero.p{
+    font-size: 19px;
+    
 }
 .hero-photo img{
     width: 100%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 60px;
+    
 }
-
+.hero-1-part{
+    margin-top: 100px;
+    height: 100%;
+    padding-right: 90px;
+}
 
 
 
 
 .sce-section{
     margin-top: 6rem;
+    padding-inline: 35px;
 }
 .sce-title{
+    font-size: 2.36rem;
     font-weight: 700;
+    line-height: 2.88rem;
 }
 .sce-title span{
     color: #4db8d1;
 }
 .separatore{
-    width: 7rem;
     height: auto;
+    width: 188px;
 }
 .sce-container  [class*="col-"] {
     display: flex;
 }
 .sce-box{
-    padding: 1.5rem 1.5rem;
-    border-radius: 30px;
-    box-shadow: 0 0 8px #7979796b;
+    padding: 34px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
 }
 .sce-h4{
     color: #4db8d1;
+    font-size: 1.84rem;
     font-weight: 700;
-    margin: 0.5rem 0 1rem 0;
+    line-height: 2.1rem;
+    min-height: 4.2rem;
+    display: flex;
+    align-items: flex-start;
 }
 
 
@@ -285,10 +343,12 @@ h2{
     padding: 5rem 0;
     margin: 4rem 0rem;
     overflow-x: hidden;
+    padding-inline: 35px;
 }
 .services-title h3 {
+    font-size: 2.36rem;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 2.88rem;
 }
 .services-title-h3 span{
     color: #4db8d1;
@@ -299,8 +359,8 @@ h2{
     align-self: flex-end;
 }
 .services-nav button {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background: transparent;
     display: flex;
@@ -310,8 +370,8 @@ h2{
     transition: 0.2s ease;
 }
 .services-nav button img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 .services-swiper-wrapper {
     max-width: 1140px; 
@@ -322,16 +382,16 @@ h2{
     overflow: visible;
 }
 .service-card img {
-    width: 100%;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
-    border-radius: 40px;
+    border-radius: 60px;
     margin-bottom: 1rem;
 }
 .service-card h4 {
+    font-size: 1.84rem;
     font-weight: 700;
-    line-height: 1.3;
-    margin-left: 1.5rem;
+    line-height: 2.1rem;
 }
 
 
@@ -342,24 +402,28 @@ h2{
 
 .faq-section {
     margin-top: 6rem;
+    padding-inline: 35px;
 }
 .faq-title h3 {
-    font-weight: 700;
     color: #4db8d1;
+    font-size: 2.36rem;
+    font-weight: 700;
+    line-height: 2.88rem;
 }
 .faq-section h4 {
+    font-size: 1.84rem;
     font-weight: 700;
-    margin-top: 0.5rem;
+    line-height: 2.1rem;
 }
 .faq-list {
-    max-width: 750px;
+    max-width: 850px;
     margin: 2.5rem auto;
 }
 .faq-item {
-    box-shadow: 0 0 8px #7979796b;
-    border-radius: 24px;
-    padding: 1.3rem 1.8rem;
-    margin-bottom: 1.2rem;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+    padding: 40px;
+    margin-bottom: 30px;
 }
 .faq-question {
     display: flex;
@@ -370,8 +434,8 @@ h2{
 .faq-question h5 {
     color: #4db8d1;
     font-weight: 700;
-    font-size: 1.1rem;
-    margin: 0;
+    font-size: 1.47rem;
+    line-height: 1.84rem;
 }
 .faq-toggle {
     background: transparent;
@@ -394,9 +458,9 @@ h2{
     margin-top: 0.8rem;
 }
 .faq-answer p {
-    color: #2c2c2c;
-    font-size: 0.95rem;
+    font-size: 19px;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 
@@ -405,13 +469,13 @@ h2{
 
 footer{
     background-color: #082536;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 60px 60px 0 0 ;
     margin-top: 4rem;
-    padding: 5rem 0 2rem 0 ;
+    padding: 50px 0 30px 0 ;
+    padding-inline: 35px;
 }
 .footer-logo-container p{
-    color: white;
+    color: #FFFFFF;
     margin-top: 3rem;
 }
 .footer-titles{
@@ -420,18 +484,28 @@ footer{
     font-weight: 700;
 }
 .footer-servizi{
-    color: white;
+    color: #FFFFFF;
 }
 .footer-servizi h7{
     font-weight: 700;
+    color: #FFFFFF;
 }
-.footer-servizi p{
-    font-weight: 300;
+.footer-servizi-links {
+    display: flex;
+    flex-direction: column;
     margin: 1rem 0 1rem 2.5rem;
+}
+.footer-servizi-links a {
+    font-weight: 300;
     line-height: 1.6rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-servizi-links a:hover {
+    color: #4db8d1;
 }
 .footer-azienda-p{
-    color: white;
+    color: #FFFFFF;
     font-weight: 500;
 }
 .footer-azienda-icons{
@@ -448,6 +522,20 @@ footer{
     padding: 7px;
     box-sizing: content-box;
 }
+.footer-azienda-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-azienda-links a{
+    font-weight: 300;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-azienda-links a:hover {
+    color: #4db8d1;
+}
 .footer-icons{
     width: 16px;
     height: 16px;
@@ -457,13 +545,20 @@ footer{
     align-items: center;
     gap: 10px;
     margin-bottom: 0.6rem;
+    color: #FFFFFF;
+}
+.footer-contatti a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-contatti a:hover{
+    color: #4db8d1;
 }
 .footer-contatti p{
     color: white;
     font-weight: 500;
     margin: 0;
 }
-
 .footer-srl p{
     color: #4db8d1;
     font-weight: 700;

@@ -25,7 +25,7 @@ document.querySelectorAll('.faq-question').forEach(question => {
 
         if (!isActive) {
             item.classList.add('active');
-            icon.src = '/images/close.svg';
+            icon.src = '/images/cross.svg';
         }
     });
 });

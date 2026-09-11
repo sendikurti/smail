@@ -1,40 +1,45 @@
-h3{
-    font-size: 35px;
+h1{
+    font-size: 3.15rem;
     font-weight: 700;
+    line-height: 3.67rem;
+    color: #082536;
 }
-h3 span{
+h1 span{
     color: #4db8d1;
 }
 .hero-txt h4{
     color: #4db8d1;
+    font-size: 1.47rem;
     font-weight: 700;
+    line-height: 1.84rem;
 }
 
 
 
 .pulizie-box-section{
     margin: 5rem 0;
+    padding-inline: 35px;
 }
 .pulizie-box {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 2rem;
-    border-radius: 30px;
-    box-shadow: 0 0 8px #7979796b;
-    margin: 1rem 0;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 65px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
 }
 .pulizie-icon-wrap {
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.2rem;
 }
 .pulizie-icon-wrap img {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 }
 .pulizie-text-wrap {
     flex-grow: 1;
@@ -42,8 +47,9 @@ h3 span{
     align-items: flex-start;
 }
 .pulizie-text-wrap p {
+    font-size: 1.84rem;
     font-weight: 700;
-    font-size: 25px;
+    line-height: 2.1rem;
     margin: 0;
     text-align: center;
 }
@@ -51,19 +57,33 @@ h3 span{
 
 
 
+.hero-section h3{
+    font-size: 2.36rem;
+    font-weight: 700;
+    line-height: 2.88rem;
+    color: #082536;
+}
+.hero-section h3 span{
+    color: #4db8d1;
+}
+
+
+
+
 .domanda-section{
     margin: 4rem 0;
+    padding-inline: 35px;
 }
 .domanda-container{
-    background-color: #f4f4f2;
+    background-color: #08253608;
     border-radius: 30px;
     padding: 2rem 0;
 }
 .domanda-title{
+    font-size: 2.36rem;
     font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 2rem;
-    line-height: 3.5rem;
+    line-height: 2.88rem;
+    margin-bottom: 4rem;
 }
 .domanda-title span{
     color: #4db8d1;

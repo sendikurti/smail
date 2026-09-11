@@ -1,3 +1,5 @@
+
+//mobile menu
 document.addEventListener('partialsLoaded', function () {
     const menu = document.getElementById('mobileMenu');
     const overlay = document.getElementById('mobileMenuOverlay');
@@ -21,6 +23,8 @@ document.addEventListener('partialsLoaded', function () {
     overlay.addEventListener('click', closeMenu);
 });
 
+
+// header servizi dropdown
 document.addEventListener('partialsLoaded', function () {
     const wrapper = document.querySelector('.dropdown-wrapper');
     const btn = document.getElementById('serviziDropdownBtn');
