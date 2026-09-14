@@ -4,39 +4,44 @@
     margin: 0;
 }
 
-h3{
-    font-size: 35px;
+h1{
+    font-size: 3.5rem;
     font-weight: 700;
+    color: #082536;
+    margin-bottom: 3rem;
 }
-
-
-
-h3{
-    color: black;
-}
-h3 span{
+h1 span{
     color: #4db8d1;
+}
+.hero-p{
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 
 .esp-section{
-    background-color: #0f2942;
+    background-color: #082536;
     border-radius: 30px;
-    padding: 5rem 0;
+    padding: 7rem 0;
     margin: 4rem 0;
+    padding-inline: 35px;
 }
 .esp-container h3{
     color: white;
     font-weight: 700;
-    line-height: 3rem;
-    font-size: 35px;
+    line-height: 3.2rem;
+    font-size: 2.9rem;
 }
 .esp-container h3 span{
     color: #4db8d1;
 }
 .esp-container p{
-    color: white;
-    margin: 2rem 0;
+    color: #ffffff;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+}
+.esp-p b{
+    color: #fff;
 }
 .esp-btn .header-call-to-action-1 {
     background-color: white;
@@ -45,17 +50,19 @@ h3 span{
 .esp-img img{
     width: 100%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 60px;
 }
 
 
 
 
-
+.il-team-section{
+    padding-inline: 35px;
+}
 .il-team-title h3{
-    font-size: 35px;
+    font-size: 2.9rem;
+    line-height: 3.2rem;
     font-weight: 700;
-    color: black;
 }
 .il-team-title span{
     color: #4db8d1;
@@ -65,36 +72,72 @@ h3 span{
     height: auto;
     margin: 0.5rem 0 2rem;
 }
+.il-team-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 .il-team-box{
     margin: 3rem 0;
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.7rem;
     border-radius: 50px;
     box-shadow: 0 0 8px #7979796b;
 }
 .il-team-box h4{
+    font-size: 1.6rem;
     font-weight: 700;
     color: #4db8d1;
     margin: 2rem 0 0.8rem 0;
 }
-
+.il-team-box p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
 
 
 
 
 .num-section{
-    background-color: #f4f4f2;
+    background-color: #08253608;
     border-radius: 30px;
     padding: 5rem 0;
     margin: 4rem 0rem;
+    padding-inline: 35px;
 }
 .num-title{
-    font-size: 35px;
+    font-size: 2.9rem;
     font-weight: 700;
 } 
 .num-title span{
     color: #4db8d1;
 }
+.num-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 .num-box h4{
     font-weight: 700;
-    margin: 1rem 0 4rem;
+    font-size: 2.3rem;
+    margin: 2rem 0 4rem;
+}
+
+
+
+
+.tec-section{
+    margin: 4rem 0;
+    padding-inline: 35px;
+}
+.tec-h3{
+    font-size: 2.9rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.tec-h3 span{
+    color: #4db8d1;
+}
+.tec-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
 }

@@ -12,6 +12,7 @@
     }
 }
 
+
 .page-chi-siamo .nav-chi-siamo,
 .page-contatti .nav-contatti{
     color: #4db8d1;
@@ -43,6 +44,8 @@
 .md-box{
     align-self: center;
     padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .md-box a:hover{
     color: #4db8d1;
@@ -62,6 +65,7 @@
 .md-btn a{
     text-decoration: none;
     color: #082536;
+    text-decoration: none;
 }
 .md-btn a:hover{
     color: #4db8d1;
@@ -75,7 +79,7 @@
     color: white;
     border: none;
     text-align: center;
-    font-size: 17.86px;
+    font-size: 1.1rem;
     color: #FFFFFF;
     border-style: none;
     border-radius: 10px;
@@ -88,7 +92,7 @@
     border: none;
     font-weight: 700;
     text-align: center;
-    font-size: 17.86px;
+    font-size: 1.1rem;
     color: #FFFFFF;
     border-style: none;
     border-radius: 10px;
@@ -114,7 +118,7 @@
 .dropdown-menu-custom {
     position: absolute;
     top: calc(100% + 5px);
-    left: 0;
+    left: 3rem;
     background: white;
     border-radius: 30px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
@@ -137,7 +141,7 @@
     padding: 0.4rem 1rem;
     color: #0f2942;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 8px;
 }
 
@@ -270,17 +274,19 @@
 h1{
     color: #4db8d1;
     font-weight: 700;
-    font-size: 3.15rem;
-    line-height: 3.67rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
 }
 h2{
-    font-size: 3.15rem;
+    font-size: 3.5rem;
     font-weight: 500;
-    line-height: 3.67rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
 }
-.hero.p{
-    font-size: 19px;
-    
+.hero-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
 .hero-photo img{
     width: 100%;
@@ -289,7 +295,7 @@ h2{
     
 }
 .hero-1-part{
-    margin-top: 100px;
+    margin-top: 70px;
     height: 100%;
     padding-right: 90px;
 }
@@ -302,16 +308,21 @@ h2{
     padding-inline: 35px;
 }
 .sce-title{
-    font-size: 2.36rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 2.88rem;
+    margin-bottom: 2rem;
 }
 .sce-title span{
     color: #4db8d1;
 }
-.separatore{
-    height: auto;
-    width: 188px;
+.separatore-box {
+    width: 200px;
+    height: 10px;
+}
+.separatore {
+    width: 100%;
+    height: 100%;
 }
 .sce-container  [class*="col-"] {
     display: flex;
@@ -321,14 +332,22 @@ h2{
     border-radius: 60px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
 }
+.sce-box img{
+    margin-bottom: 1rem;
+}
 .sce-h4{
     color: #4db8d1;
-    font-size: 1.84rem;
+    font-size: 2.2rem;
     font-weight: 700;
     line-height: 2.1rem;
     min-height: 4.2rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: flex-start;
+}
+.sce-box p{
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 
@@ -336,9 +355,8 @@ h2{
 
 
 
-
 .services-section {
-    background-color: #f4f4f2;
+    background-color: #08253608;
     border-radius: 30px;
     padding: 5rem 0;
     margin: 4rem 0rem;
@@ -403,6 +421,9 @@ h2{
 .faq-section {
     margin-top: 6rem;
     padding-inline: 35px;
+}
+.faq-title{
+    margin-bottom: 1rem;
 }
 .faq-title h3 {
     color: #4db8d1;
@@ -580,5 +601,111 @@ footer{
     }
     .footer-srl{
         margin-top: 4rem;
+    }
+    h1 ,h2{
+        font-size: 1.84rem;
+        line-height: 2.36rem;
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        box-shadow: none;
+        padding-inline: 0;
+        margin: 0;
+    }
+    .hero-section{
+        margin-top: 2rem;
+        padding-inline: 0;
+    }
+    .hero-1-part{
+        padding: 0;
+        margin: 0;
+    }
+    .hero-p{
+        font-size: 1rem;
+    }
+    .hero-photo img{
+        border-radius: 30px;
+    }
+
+
+
+
+    .sce-section{
+        padding-inline: 0;
+    }
+    .sce-title{
+        font-size: 1.6rem;
+        margin-bottom: 0;
+    }
+    .separatore-box{
+        width: 100px;
+    }
+    .sce-box{
+        border-radius: 30px;
+    }
+    .sce-box h4{
+        font-size: 1.2rem;
+        line-height: 1.26rem;
+        margin: 0;
+    }
+    .sce-box p{
+        font-size: 1rem;
+        margin: 0;
+    }
+
+
+
+
+
+
+    .services-section{
+        padding-inline: 0;
+        padding-top: 2rem;
+    }
+    .services-title h3{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .service-card h4{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        padding: 0 2rem 0 2rem;
+    }
+
+
+
+
+    .faq-section{
+        padding-inline: 0;
+    }
+    .faq-title h3{
+        font-size: 1.6rem;
+    }
+    .faq h4{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .faq-item{
+        border-radius: 30px;
+        padding: 30px;
+    }
+    .faq-question h5{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .faq-answer p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+
+
+    footer{
+        padding-inline: 0;
+    }
+    .footer-logo-container{
+       
+        margin: 0;
     }
 }

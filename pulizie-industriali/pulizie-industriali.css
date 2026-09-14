@@ -1,16 +1,25 @@
-h3{
-    font-size: 35px;
-    font-weight: 700;
+*{
+    color: #082536;
 }
-h3 span{
+
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #082536;
+}
+h1 span{
     color: #4db8d1;
 }
 .hero-txt h4{
     color: #4db8d1;
     font-weight: 700;
+    font-size: 1.6rem;
 }
 .hero-txt p{
     margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 
@@ -18,17 +27,24 @@ h3 span{
 
 
 .interventi-box-section{
-    margin: 5rem 0;
+    margin: 9rem 0;
+    padding-inline: 35px;
+}
+.interventi-h3{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 .interventi {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 2rem;
-    border-radius: 30px;
-    box-shadow: 0 0 8px #7979796b;
-    margin: 1rem 0;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 65px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
 }
 .interventi-separatore{
     width: 150px;
@@ -40,11 +56,10 @@ h3 span{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.2rem;
 }
 .interventi-icon-wrap img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 .interventi-text-wrap {
     flex-grow: 1;
@@ -52,8 +67,83 @@ h3 span{
     align-items: flex-start;
 }
 .interventi-text-wrap p {
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 25px;
+    line-height: 2.1rem;
     margin: 0;
     text-align: center;
+}
+.interventi-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    h1{
+        font-size: 2rem;
+        line-height: 2.36rem;
+    }
+    .pulizie-h4{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        color: #4db8d1;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+    .hero-txt p{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    
+    .interventi-box-section{
+        margin: 4rem 0;
+        padding-inline: 0;
+    }
+    .interventi-h3{
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .interventi {
+        padding: 30px;
+        border-radius: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 1rem;
+    }
+    .interventi-separatore{
+        width: 200px;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .interventi-icon-wrap {
+        height: 60px;
+    }
+    .interventi-icon-wrap img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+    .interventi-text-wrap {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+    }
+    .interventi-text-wrap p {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .interventi-p{
+        font-size: 1rem;
+        margin: 0;
+    }
+
 }
