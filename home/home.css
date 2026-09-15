@@ -13,10 +13,18 @@
 }
 
 
+.pulizie-box.servizio-selected {
+    box-shadow: 0px 0px 15px 7px #4db9d191, 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+.interventi.servizio-selected{
+    box-shadow: 0px 0px 15px 7px #4db9d191, 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+
 .page-chi-siamo .nav-chi-siamo,
 .page-contatti .nav-contatti{
     color: #4db8d1;
-    text-decoration: underline;
+    text-decoration: none;
 }
 /*
 .header {
@@ -51,16 +59,19 @@
     color: #4db8d1;
     text-decoration: none;
 }
-.md-btn{
+.md-btn {
     background-color: transparent;
     border: none;
     font-size: 15.96px;
     font-weight: 700;
     text-decoration: none;
-    color: inherit;
+    color: #082536;
     display: inline-block;
     padding: 13px 55px;
-    color: #082536;
+}
+.md-btn:hover {
+    color: #4db8d1;
+    text-decoration: none;
 }
 .md-btn a{
     text-decoration: none;
@@ -74,6 +85,9 @@
 .call-to-action-btns{
     padding-top: 15px;
 }
+.call-to-action-btns a{
+    text-decoration: none;
+}
 .header-call-to-action-1{
     background-color: #082536;
     color: white;
@@ -86,6 +100,7 @@
     padding: 13px 18px;
     font-weight: 700;
     line-height: 1.2rem;
+    border: 1px solid transparent;
 }
 .header-call-to-action-2{
     background-color: #4db8d1;
@@ -98,7 +113,60 @@
     border-radius: 10px;
     padding: 13px 18px;
     line-height: 1.2rem;
+    border: 1px solid transparent;
 }
+
+
+
+.header-call-to-action-1,
+.header-call-to-action-2 {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s ease;
+}
+
+.header-call-to-action-1::before,
+.header-call-to-action-2::before {
+    content: '';
+    position: absolute;
+    top: var(--y, 50%);
+    left: var(--x, 50%);
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease, height 0.5s ease;
+    z-index: -1;
+}
+
+.header-call-to-action-1:hover {
+    color: #082536;
+    border: 1px solid #082536;
+}
+.header-call-to-action-1:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.header-call-to-action-2:hover {
+    color: #4db8d1;
+    border: 1px solid #4db8d1
+}
+.header-call-to-action-2:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

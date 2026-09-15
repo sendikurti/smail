@@ -46,6 +46,7 @@ h1 span{
 .esp-btn .header-call-to-action-1 {
     background-color: white;
     color: #0f2942;
+    border: 1px solid transparent;
 }
 .esp-img img{
     width: 100%;

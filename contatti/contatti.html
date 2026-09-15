@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home/home.css">
     <link rel="stylesheet" href="/contatti/contatti.css">
+    <link rel="icon" type="image/png" href="/images/lglglgl-removebg-preview.png">
 </head>
 
 <body class="page-contatti">
@@ -21,16 +22,16 @@
 
     <section class="contatti-section">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-3">
 
                 <div class="col-12 col-md-10 col-lg-8">
 
                     <div class=" mb-4 contatti-title">
-                        <h3>Contatta <span>SMAIL</span><br>Impresa di Pulizie<br>a Perugia</h3>
+                        <h1>Contatta <span>SMAIL</span><br>Impresa di Pulizie<br>a Perugia</h1>
                     </div>
 
                     <div class="mb-5">
-                        <p>
+                        <p class="contatti-p">
                             Hai bisogno di un <b>servizio di pulizie civili e industriali?</b><br>
                             SMAIL è a tua disposizione per offrirti un preventivo rapido, chiaro e senza impegno. Operiamo su tutto il
                             territorio di <b>Perugia, Olmo, Magione, Bastia Umbra e Terni,</b> garantendo risposte veloci e interventi
@@ -49,12 +50,12 @@
 
                                 <div class="col-12">
                                     <label>Nome e Cognome<span class="required-mark">*</span></label>
-                                    <input type="text" placeholder="Mario Rossi">
+                                    <input type="text" placeholder="Mario Rossi" required>
                                 </div>
 
                                 <div class="col-12 col-md-6">
                                     <label>Telefono<span class="required-mark">*</span></label>
-                                    <input type="tel" placeholder="+39 000 000 0000">
+                                    <input type="tel" placeholder="+39 000 000 0000" required>
                                 </div>
 
                                 <div class="col-12 col-md-6">
@@ -64,7 +65,7 @@
 
                                 <div class="col-12">
                                     <label>Località intervento<span class="required-mark">*</span></label>
-                                    <input type="text" placeholder="es. Perugia">
+                                    <input type="text" placeholder="es. Perugia" required>
                                 </div>
 
                                 <div class="col-12">
@@ -84,7 +85,7 @@
                                             <div class="custom-select-option" data-value="altro">Altro...</div>
                                         </div>
                                     </div>
-                                    <input type="hidden" name="tipologia_servizio" id="tipoServizioValue">
+                                    <input type="hidden" name="tipologia_servizio" id="tipoServizioValue" required>
                                 </div>
 
                                 <div class="col-12 col-md-6">
@@ -113,19 +114,19 @@
 
                                 <div class="col-12">
                                     <label>Messaggio<span class="required-mark">*</span></label>
-                                    <textarea rows="4" placeholder="Descrivi in breve le tue esigenze..."></textarea>
+                                    <textarea rows="4" placeholder="Descrivi in breve le tue esigenze..." required></textarea>
                                 </div>
 
                                 <div class="col-12">
                                     <div class="contatti-privacy">
                                         <input type="checkbox" id="privacyCheck">
-                                        <label for="privacyCheck">Ho letto l'informativa privacy e acconsento alla memorizzazione dei dati del sotto contatto secondo quanto
+                                        <label class="privacy-p" for="privacyCheck">Ho letto <a href="#"> l'informativa privacy</a> e acconsento alla memorizzazione dei dati del sotto contatto secondo quanto
                                             dal regolamento europeo per la protezione dei dati personali - GDPR/2016</label>
                                     </div>
                                 </div>
 
                                 <div class="col-12">
-                                    <button type="submit" class="header-call-to-action-1 w-100">Invia richiesta di preventivo</button>
+                                    <button type="submit" class="header-call-to-action-1 w-100" id="submitBtn" >Invia richiesta di preventivo</button>
                                 </div>
 
                             </div>
@@ -133,49 +134,49 @@
                     </div>
 
                 </div>
-
                 <div class="col-12 col-lg-4">
-                    <div class="contatti-sidebar">
+                    <div class="contatti-sidebar-wrapper">
 
-                        <h5>Preferisci parlare direttamente con noi?</h5>
+                        <div class="contatti-sidebar">
 
-                        <div class="contatti-sidebar-item">
-                            <img src="/images/phone.svg" alt="">
-                            <div>
-                                <p class="contatti-sidebar-label">Chiama ora</p>
-                                <p class="contatti-sidebar-subtitle">Rispesta immediata</p>
-                                <p class="contatti-sidebar-value">+00 000 000 0000</p>
+                            <h5>Preferisci parlare direttamente con noi?</h5>
+
+                            <div class="contatti-sidebar-item">
+                                <img src="/images/phone.svg" alt="">
+                                <div>
+                                    <p class="contatti-sidebar-label">Chiama ora</p>
+                                    <p class="contatti-sidebar-subtitle">Rispesta immediata</p>
+                                    <p class="contatti-sidebar-value">+00 000 000 0000</p>
+                                </div>
                             </div>
+
+                            <div class="contatti-sidebar-item">
+                                <img src="/images/whatsapp.svg" alt="">
+                                <div>
+                                    <p class="contatti-sidebar-label">WhatsApp Business</p>
+                                    <p class="contatti-sidebar-subtitle">Invia foto e dettagli per un preventivo più preciso</p>
+                                </div>
+                            </div>
+
+                            <div class="contatti-sidebar-item">
+                                <img src="/images/mail_27dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <div>
+                                    <p class="contatti-sidebar-label">Email</p>
+                                    <p class="email-contatti-sidebar-value">info@smail.it</p>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <div class="contatti-sidebar-item">
-                            <img src="/images/whatsapp.svg" alt="">
-                            <div>
-                                <p class="contatti-sidebar-label">WhatsApp Business</p>
-                                <p class="wp-contatti-sidebar-value">Invia foto e dettagli per un preventivo più preciso</p>
+                        <div class="contatti-sidebar-social">
+                            <h5>Seguici sui social</h5>
+                            <div class="contatti-sidebar-social-links">
+                                <a href="#"><img src="/images/instagram.png" alt=""> Instagram</a>
+                                <a href="#"><img src="/images/facebook.svg" alt=""> Facebook</a>
                             </div>
                         </div>
-
-                        <div class="contatti-sidebar-item">
-                            <img src="/images/mail_27dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
-                            <div>
-                                <p class="contatti-sidebar-label">Email</p>
-                                <p class="email-contatti-sidebar-value">info@smail.it</p>
-                            </div>
-                        </div>
-
                     </div>
-
-                    <div class="contatti-sidebar-social">
-                        <h5>Seguici sui social</h5>
-                        <div class="contatti-sidebar-social-links">
-                            <a href="#"><img src="/images/whatsapp.svg" alt=""> Instagram</a>
-                            <a href="#"><img src="/images/facebook.svg" alt=""> Facebook</a>
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
         </div>
     </section>

@@ -1,32 +1,38 @@
 .contatti-section {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    padding-inline: 35px;
 }
-.contatti-title h3{
-    font-size: 45px;
+.contatti-title h1{
+    font-size: 3.5rem;
     font-weight: 700;
+    color: #082536;
 }
-.contatti-title h3 span{
+.contatti-title h1 span{
     color: #4db8d1;
 }
-
+.contatti-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 
 
 
 .contatti-form-box {
-    background-color: #e4e4e4e3;
-    border-radius: 40px;
+    background-color: #0825361A;
+    border-radius: 60px;
     padding: 2.5rem;
     margin-top: 5rem;
 }
 .contatti-form-box h3 {
     font-weight: 700;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
     color: #082536;
 }
 .contatti-form-subtitle {
     color: #082536;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
     font-weight: 500;
 }
@@ -34,7 +40,7 @@
     display: block;
     font-weight: 500;
     color: #082536;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.4rem;
     font-weight: 500;
 }
@@ -47,10 +53,11 @@
     width: 100%;
     border: none;
     border-radius: 30px;
-    padding: 0.7rem 1rem;
+    padding: 0.8rem 1rem;
     font-family: 'Poppins', sans-serif;
     font-size: 0.95rem;
     font-weight: 500;
+    border: none;
 }
 .contatti-form textarea{
     border-radius: 20px;
@@ -65,6 +72,15 @@
     align-items: flex-start;
     gap: 0.6rem;
 }
+.contatti-privacy .privacy-p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #0F2B45;
+}
+.privacy-p a{
+    color: #4db8d1;
+    text-decoration: none;
+}
 .contatti-privacy input {
     width: auto;
     margin-top: 0.3rem;
@@ -78,31 +94,37 @@
     position: relative;
 }
 .custom-select-trigger {
-    border: 1px solid #d6d6d6;
+    border: none;
+    font-weight: 500;
     border-radius: 30px;
-    padding: 0.7rem 1rem;
+    padding: 0.8rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
     background: white;
     transition: border-radius 0.15s ease;
+    color: #6b7785;
 }
 .custom-select-trigger span{
     color: #6b7785;
+    font-weight: 500;
 }
 .custom-select.open .custom-select-trigger {
     border-radius: 30px 30px 0 0;
     border-bottom: none;
+    color: #6b7785;
+    font-weight: 500;
 }
 .custom-select-options {
     color: #6b7785;
+    font-weight: 500;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: white;
-    border: 1px solid #d6d6d6;
+    border: none;
     border-top: none;
     border-radius: 0 0 30px 30px;
     padding: 0.4rem;
@@ -112,16 +134,38 @@
 }
 .custom-select.open .custom-select-options {
     display: block;
+    color: #6b7785;
+    font-weight: 500;
 }
 .custom-select-option {
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
     cursor: pointer;
+    color: #6b7785;
+    font-weight: 500;
 }
 .custom-select-option:hover {
     background-color: #f4f4f2;
 }
 
+.contatti-form button[type="submit"] {
+    font-size: 1.2rem;
+    padding: 1.5rem ;
+    border-radius: 60px;
+}
+.contatti-form button[type="submit"]:disabled {
+    background-color: #b8c2cc;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+
+
+.contatti-form input.field-error,
+.contatti-form textarea.field-error,
+.contatti-form .custom-select.field-error .custom-select-trigger {
+    border-color: #e74c3c;
+}
 
 
 
@@ -129,19 +173,29 @@
 
 
 
+
+
+.contatti-sidebar-wrapper {
+    position: sticky;
+    top: 4rem;
+}
 .contatti-sidebar {
     background-color: #082536;
-    border-radius: 40px;
-    padding: 2rem;
-    color: white;
+    border-radius: 60px;
+    padding: 45px 40px;
+    color: #fff;
 }
 .contatti-sidebar h5 {
     font-weight: 700;
     margin-bottom: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
 }
 .contatti-sidebar-subtitle {
-    font-size: 12px;
+    font-size: 1rem;
+    font-weight: 500;
     margin-bottom: auto;
+    color: #fff;
 }
 .contatti-sidebar-item {
     display: flex;
@@ -150,31 +204,31 @@
     margin-bottom: 1.5rem;
 }
 .contatti-sidebar-item img {
-    width: 27px;
-    height: 27px;
+    width: 40px;
+    height: 40px;
     background-color: #4db8d1;
-    padding: 4px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     flex-shrink: 0;
 }
 .contatti-sidebar-label {
     font-weight: 700;
+    font-size: 1.2rem;
     margin: 0;
+    color: #fff;
 }
 .contatti-sidebar-value {
-    font-size:20px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     margin: 0;
     font-weight: 700;
-}
-.wp-contatti-sidebar-value {
-    font-size:11px;
-    margin: 0;
-    font-weight: 500;
+    color: #fff;
 }
 .email-contatti-sidebar-value {
-    font-size:20px;
+    font-size: 1.6rem;
     margin: 0;
     font-weight: 700;
+    color: #fff;
 }
 
 
@@ -182,14 +236,16 @@
 
 .contatti-sidebar-social {
     background-color: #4db8d1;
-    border-radius: 40px;
-    padding: 2rem;
-    margin-top: 1rem;
+    border-radius: 60px;
+    padding: 45px 40px;
+    margin-top: 2rem;
 }
 .contatti-sidebar-social h5 {
     font-weight: 700;
-    margin-bottom: 1rem;
-    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #fff;
 }
 .contatti-sidebar-social-links {
     display: flex;
@@ -202,12 +258,89 @@
     gap: 0.6rem;
     color: white;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 .contatti-sidebar-social-links img {
-    width: 27px;
-    height: 27px;
+    width: 40px;
+    height: 40px;
     background-color: #082536;
-    padding: 4px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .contatti-section {
+        padding-inline: 0;
+        margin-top: 2rem;
+    }
+    .contatti-title h1{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .contatti-p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    
+    .contatti-form-box {
+        border-radius: 30px;
+        padding: 1.2rem;
+        margin-top: 5rem;
+    }
+    .contatti-form-box h3 {
+        font-size: 1.2rem;
+    }
+    .contatti-form-subtitle {
+
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .contatti-form button[type="submit"] {
+        font-size: 1rem;
+        padding: none;
+        border-radius: 10px;
+    }
+
+
+
+
+
+        
+   
+    .contatti-sidebar {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .contatti-sidebar h5 {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .contatti-sidebar-value {
+        font-size: 1rem;
+    }
+    .email-contatti-sidebar-value {
+        font-size: 1rem;
+    }
+
+
+
+
+    .contatti-sidebar-social {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .contatti-sidebar-social h5 {
+        font-size: 1rem;
+    }
+
+
+
 }
