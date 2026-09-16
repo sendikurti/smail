@@ -1,9 +1,10 @@
 const servicesSwiper = new Swiper('.services-swiper', {
-    slidesPerView: 3.4,
-    spaceBetween: 20,
+    slidesPerView: 3,
+    spaceBetween: 24,
     navigation: {
         nextEl: '.services-next',
         prevEl: '.services-prev',
+        disabledClass: 'swiper-button-disabled'
     },
     breakpoints: {
         0: { slidesPerView: 1, spaceBetween: 16 },

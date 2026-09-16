@@ -80,7 +80,7 @@ h1 span{
 .il-team-box{
     margin: 3rem 0;
     padding: 2rem 1.7rem;
-    border-radius: 50px;
+    border-radius: 60px;
     box-shadow: 0 0 8px #7979796b;
 }
 .il-team-box h4{
@@ -120,6 +120,10 @@ h1 span{
     font-size: 2.3rem;
     margin: 2rem 0 4rem;
 }
+.num-icon {
+    width: 180px;
+}
+
 
 
 
@@ -141,4 +145,106 @@ h1 span{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 4rem;
+}
+
+
+
+@media (max-width: 991px) {
+    h1{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    .hero-p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .call-to-action-btns .header-call-to-action-1,
+    .call-to-action-btns .header-call-to-action-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .esp-section{
+        padding-inline: 0;
+    }
+    .esp-container h3{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+    .esp-img img{
+        border-radius: 30px;
+    }
+    .esp-container p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+
+
+    .il-team-section{
+        padding-inline: 0px;
+    }
+    .il-team-title h3{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+    .il-team-p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .il-team-box{
+        margin: 0;
+        padding: 2rem 1.8rem;
+        border-radius: 50px;
+    }
+    .il-team-box h4{
+        font-size: 1rem;
+
+        margin: 1rem 0 0.4rem 0;
+    }
+    .il-team-box p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+
+
+
+    .num-section{
+        padding-inline: 0px;
+    }
+    .num-title{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    } 
+    .num-p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .num-box h4{
+        font-size: 1.2rem;
+    }
+    .num-icon {
+        width: 120px;
+    }
+
+
+
+    .tec-section{
+        padding-inline: 0px;
+    }
+    .tec-h3{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        margin-bottom: 2rem;
+    }
+    .tec-p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+
 }

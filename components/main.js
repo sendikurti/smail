@@ -197,7 +197,3 @@ document.addEventListener('partialsLoaded', function () {
         });
     });
 });
-
-
-
-
