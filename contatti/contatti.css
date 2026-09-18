@@ -60,7 +60,8 @@
     border: none;
 }
 .contatti-form textarea{
-    border-radius: 20px;
+    border-radius: 25px;
+    height: 160px;
 }
 .contatti-form input:focus,
 .contatti-form select:focus,
@@ -75,7 +76,7 @@
 .contatti-privacy .privacy-p {
     font-size: 0.9rem;
     font-weight: 500;
-    color: #0F2B45;
+    color: #082536;
 }
 .privacy-p a{
     color: #4db8d1;
@@ -125,12 +126,10 @@
     right: 0;
     background: white;
     border: none;
-    border-top: none;
     border-radius: 0 0 30px 30px;
     padding: 0.4rem;
     display: none;
     z-index: 10;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
 .custom-select.open .custom-select-options {
     display: block;
