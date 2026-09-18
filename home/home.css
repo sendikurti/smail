@@ -679,8 +679,87 @@ footer{
 
 
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    h1, h2 {
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+    }
+    .header {
+        padding-inline: 20px;
+    }
+    .hero-section {
+        padding-inline: 20px;
+    }
+    .hero-p {
+        font-size: 1.1rem;
+    }
 
-@media (max-width: 991px) {
+    .sce-section {
+        padding-inline: 20px;
+    }
+    .sce-title {
+        font-size: 2.2rem;
+    }
+    .sce-box h4 {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .services-section {
+        padding-inline: 20px;
+    }
+    .services-title h3 {
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+    }
+    .service-card h4 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    .faq-section {
+        padding-inline: 20px;
+    }
+    .faq-title h3 {
+        font-size: 1.9rem;
+    }
+    .faq-h4 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .faq-question h5 {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        padding-inline: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
     .container {
         padding-left: 2rem;
         padding-right: 2rem;
