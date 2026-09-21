@@ -123,6 +123,13 @@ h1 span{
 .num-icon {
     width: 180px;
 }
+.num-icon {
+    width: clamp(80px, 15vw, 180px);
+    height: auto;
+}
+.num-box h4 {
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+}
 
 
 
@@ -149,6 +156,9 @@ h1 span{
 
 
 
+
+
+
 @media (max-width: 991px) {
     h1{
         font-size: 2.2rem;
@@ -158,13 +168,7 @@ h1 span{
         font-size: 1rem;
         line-height: 1.6rem;
     }
-    .call-to-action-btns .header-call-to-action-1,
-    .call-to-action-btns .header-call-to-action-2 {
-        width: 100%;
-        text-align: center;
-    }
-
-
+ 
 
     .esp-section{
         padding-inline: 0;
@@ -225,9 +229,6 @@ h1 span{
     }
     .num-box h4{
         font-size: 1.2rem;
-    }
-    .num-icon {
-        width: 120px;
     }
 
 
